@@ -56,7 +56,7 @@ type Pool interface {
 	Len() int
 }
 
-// PoolConn is a wrapper around net.Conn to modify the the behavior of
+// PoolConn is a wrapper around net.Conn to modify the behavior of
 // net.Conn's Close() method.
 type PoolConn struct {
 	Closeable
